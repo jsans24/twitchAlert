@@ -1,0 +1,24 @@
+{
+  "name": "twitchalert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsans24/twitchAlert.git"
+  },
+  "author": "Josua Sanford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsans24/twitchAlert/issues"
+  },
+  "homepage": "https://github.com/jsans24/twitchAlert#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twilio": "^3.66.0",
+    "twilio-cli": "^2.26.0"
+  }
+}
