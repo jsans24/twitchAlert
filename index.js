@@ -6,7 +6,7 @@ const twilioNum = process.env.TWILIO_PHONE_NUMBER;
 
 const client = require('twilio')(accountSid, authToken);
 
-const contacts = []
+const contacts = process.env.CONTACT_LIST.split(',')
 
 for (let index = 0; index < contacts.length; index++) {
         client.messages
